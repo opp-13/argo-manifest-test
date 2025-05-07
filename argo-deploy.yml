@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: nginx-con
-        image: 760135347993.dkr.ecr.ap-northeast-2.amazonaws.com/web-argo:2
+        image: 760135347993.dkr.ecr.ap-northeast-2.amazonaws.com/web-argo:1
