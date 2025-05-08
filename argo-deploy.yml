@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-dep
+  name: dep-front
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: front
   template:
     metadata:
-      name: nginx-pod
+      name: pod-front
       labels:
-        app: nginx
+        app: front
     spec:
       containers:
-      - name: nginx-con
-        image: 760135347993.dkr.ecr.ap-northeast-2.amazonaws.com/web-argo:1
+      - name: con-front
+        image: 760135347993.dkr.ecr.ap-northeast-2.amazonaws.com/frontend:1
