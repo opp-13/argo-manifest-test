@@ -11,4 +11,4 @@ spec:
     app: front
   ports:
   - port: 80
-    targetPort: 5173
+    targetPort: 8080
