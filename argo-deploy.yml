@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: con-front
-        image: 760135347993.dkr.ecr.ap-northeast-2.amazonaws.com/frontend:4
+        image: opp13/spring:4
