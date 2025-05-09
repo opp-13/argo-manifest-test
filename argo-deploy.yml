@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: con-front
-        image: opp13/spring:14
+        image: opp13/spring:15
